@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SheCodes 2025</title>
+        <link rel="stylesheet" href="./style.css">
 </head>
         <body>
-            <header> 
-                <img src="img\logo.png" alt="SheCodes Plus Logo" width="200" height="100">
+            <header class="flex space-between padding-large"> 
+
+                <img src="img\logo.png" alt="SheCodes Plus Logo" class="logo">
                 <nav>
                     <ul>
                         <li><a href="#"> Coders </a></li>
@@ -20,37 +22,37 @@
                 </nav>
             </header>
             <main>
-                <section>
+                <section class="flex column hero">
                     <h1> A <span> Movement </span> devoted to helping weomen learn tech skills.</h1>
-                    <a href="#"> Start Learning </a>
+                    <button type="button"> <a href="#"> Start Learning </a> </button>
                 </section>
 
 
 <br>
-                <section>
-                <article>
-                    <img src="./img/tools.svg" alt="A wrench and a screwdriver, lying crossed over one another diagonally">
+                <section class="flex">
+
+                <article class="padding-medium">
+                    <img src="./img/tools.svg" alt="Tools icon">
                     <h1> 1 Day Workshops </h1>
-                        Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.
+                       <p> Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point. </p>
+                        <button type="button"> Apply </button>
+                </article>
+                <article class="padding-medium">
+                    <img src="./img/lightning.svg" alt="Tools icon">
+                    <h1> 1 Day Workshops </h1>
+                        <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point. </p>
                     <button type="button"> Apply </button>
                 </article>
-                <article>
-                    <img src="./img/lightning.svg" alt="A jagged lightning bolt, thick at the top and sharp at the bottom">
+                <article class="padding-medium">
+                    <img src="./img/plus.svg" alt="Tools icon">
                     <h1> 1 Day Workshops </h1>
-                        Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.
-                    <button type="button"> Apply </button>
-                </article>
-                <article>
-                    <img src="./img/plus.svg" alt="A plus sign formed by a horizontal line intersecting a vertical line">
-                    <h1> 1 Day Workshops </h1>
-                        Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.
-                </article>
-                    <br>
+                        <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.</p>
                             <button type="button"> <a href="#"> Apply </a> </button> 
+                </article>
                 </section>
 <br>
 
-                <section>
+                <section class="flex form-center">
                     <form action="/action_page.php" method="get">
                         <label for="fname">First name:</label>
                         <input type="text" id="fname" name="fname"><br><br>
@@ -63,18 +65,20 @@
                 </section>
 
 
-                    <article></article>
+                    <article>
 
 
             </main>
             <footer>
             <nav>
-                    <ul>
-                        <li><a href="#"><img src="img\instagram.svg" alt="Instagram"></a></li>
-                        <li><a href="#"> <img src="img\slack.svg" alt="Slack"> </a></li>
-                        <li><a href="#"> <img src="img\github.svg" alt="Github"> </a></li>
+                    <ul class="flex column">
+                        <li><a href="#"><img src="img\instagram.svg" alt="Instagram" class="icon"></a></li>
+                        <li><a href="#"> <img src="img\slack.svg" alt="Slack" class="icon"> </a></li>
+                        <li><a href="#"> <img src="img\github.svg" alt="Github" class="icon"> </a></li>
                     </ul>
                 </nav>
+
+            </article>
                 <div><p>&copy; Nisha Rabadia, Adventurer </p></div>
             </footer>
             
